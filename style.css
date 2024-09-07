@@ -1,0 +1,67 @@
+body {
+  font-family: monospace;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dotted black;
+}
+
+header img {
+  height: 50px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+}
+
+.statement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1500px;
+  width: 100%;
+  background-image: url("https://a0.soysuper.com/b6b948e54c22221f942114120a16aea5.1500.0.0.0.wmark.4f2c4c3c.jpg")
+}
+
+.statement h3 {
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.team {
+  width: 100%;
+  text-align: center;
+  border-top: 1px dotted black;
+  padding: 25px 0;
+}
+
+.members {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.member img {
+  width: 300px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px dotted black;
+  text-align: center;
+  padding: 15px 0;
+}
